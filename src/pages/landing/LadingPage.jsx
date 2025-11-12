@@ -11,13 +11,13 @@ import ThirdSection from '../../components/ThirdSection'
 import FooterLandingPage from '../../components/footers/FooterLandingPage'
 
 export default function LandingPage() {
-  useEffect(() =>{
-    const API_KEY = '03858a4709caa9506ba77cb561f9b589';
-    fetch(`https://api.themoviedb.org/3/movie/560?api_key=${API_KEY}`)
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(err => console.err(err))
-  },[])
+  // useEffect(() =>{
+  //   const API_KEY = '03858a4709caa9506ba77cb561f9b589';
+  //   fetch(`https://api.themoviedb.org/3/movie/560?api_key=${API_KEY}`)
+  //   .then(response => response.json())
+  //   .then(data => console.log(data))
+  //   .catch(err => console.err(err))
+  // },[])
 
   return (
     <div className='landing-container'>
